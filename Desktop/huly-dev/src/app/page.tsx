@@ -1,23 +1,8 @@
 export default function Home() {
   return (
-    <main
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        height: '100vh',
-        fontFamily: 'Arial, sans-serif',
-        textAlign: 'center',
-        padding: '2rem',
-      }}
-    >
-      <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>
-        Welcome to Chacon Strategies
-      </h1>
-      <p style={{ fontSize: '1.25rem', color: '#555' }}>
-        Something powerful is launching soon. Stay tuned.
-      </p>
+    <main className="flex flex-col items-center justify-center h-screen text-center p-8">
+      <h1 className="text-5xl font-bold mb-4">Welcome to Chacon Strategies</h1>
+      <p className="text-xl text-gray-600">Something powerful is launching soon. Stay tuned.</p>
     </main>
   );
 }
