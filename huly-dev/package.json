@@ -24,4 +24,4 @@
     "eslint-config-next": "15.3.0",
     "@eslint/eslintrc": "^3"
   }
-}
+"vercel-build": "next build"}
