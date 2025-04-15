@@ -1,12 +1,11 @@
 {
-  "name": "huly-dev",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -24,4 +23,4 @@
     "eslint-config-next": "15.3.0",
     "@eslint/eslintrc": "^3"
   }
-"vercel-build": "next build"}
+}
